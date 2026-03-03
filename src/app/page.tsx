@@ -211,7 +211,7 @@ export default function Home() {
                 >
                   {name}
                 </h3>
-                <p className="text-[#8c8076] text-sm mb-6">{price}</p>
+
                 <ul className="space-y-3">
                   {features.map((f) => (
                     <li key={f} className="flex items-start gap-2 text-[#5c3d2e] text-sm">
