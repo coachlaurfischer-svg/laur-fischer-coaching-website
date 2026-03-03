@@ -199,7 +199,7 @@ export default function Home() {
                 ],
                 accent: "#55cdfc",
               },
-            ].map(({ name, price, features, accent }) => (
+            ].map(({ name, features, accent }) => (
               <div
                 key={name}
                 className="bg-[#f5efe6] rounded-2xl p-8 text-left border-2 w-full"
