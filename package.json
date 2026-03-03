@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "pages:build": "opennextjs-cloudflare build && cp .open-next/worker.js .open-next/assets/_worker.js && find .open-next -maxdepth 1 -mindepth 1 ! -name assets ! -name worker.js -exec cp -r {} .open-next/assets/ \\;",
+    "pages:build": "opennextjs-cloudflare build && node -e \"const fs=require('fs'),f='.open-next/cloudflare/init.js';fs.writeFileSync(f,fs.readFileSync(f,'utf8').replace('__ASSETS_RUN_WORKER_FIRST__: false','__ASSETS_RUN_WORKER_FIRST__: true'))\" && cp .open-next/worker.js .open-next/assets/_worker.js && find .open-next -maxdepth 1 -mindepth 1 ! -name assets ! -name worker.js -exec cp -r {} .open-next/assets/ \\;",
     "preview": "npm run pages:build && wrangler pages dev",
     "start": "next start",
     "lint": "eslint"
