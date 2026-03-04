@@ -219,7 +219,7 @@ export default function Home() {
                 name: "What's included:",
                 features: [
                   "Individualized, customized training plans using the Final Surge platform",
-                  "Unlimited emails, phones, and texts (response time within 24 hours*)",
+                  "Unlimited emails, phones, and texts (response time within 24 hours)",
                   "Plans based on your goals and your life",
                   "Your own running consultant, mentor, and everything running go-to coach",
                   "Guidance with goal setting and race selection",
