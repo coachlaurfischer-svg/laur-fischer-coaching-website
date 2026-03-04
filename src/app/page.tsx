@@ -233,9 +233,6 @@ export default function Home() {
               </div>
             ))}
           </div>
-          <p className="text-[#5c3d2e] mb-12 max-w-xl mx-auto">
-            * There may be times I'm out of service while running my own adventure causing a delay in response. When this happens it will be communicated beforehand! 
-          </p>
         </div>
       </section>
     </>
