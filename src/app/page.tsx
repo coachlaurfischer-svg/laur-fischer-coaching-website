@@ -81,9 +81,9 @@ export default function Home() {
           </h2>
           <div className="w-16 h-1 mx-auto mb-10 rounded bg-gradient-to-r from-[#55cdfc] to-[#f7a8b8]" />
           <p className="text-[#5c3d2e] text-lg leading-relaxed mb-6">
-            I&apos;m a trans trail runner and UESCA-certified ultrarunning coach based in Seattle, WA.
-            My path to running wound through a chronic illness diagnosis, hormone replacement therapy,
-            and the trails that became my home — leading me to my first ultramarathon in 2023.
+            I&apos;m a UESCA-certified ultrarunning coach based in Seattle, WA.
+            My path to running wound through searching for community, chronic illness diagnosis, and hormone replacement therapy
+             — leading me to my first ultramarathon in 2023.
           </p>
           <p className="text-[#5c3d2e] text-lg leading-relaxed mb-10">
             Those experiences — the hard ones and the joyful ones — shape how I show up for every
