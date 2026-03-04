@@ -213,7 +213,7 @@ export default function Home() {
             Please note: I have limited spots at each level on my sliding scale.
           </p>
 
-          <div className="flex justify-center max-w-4xl mx-auto w-1/2">
+          <div className="flex justify-center max-w-4xl mx-auto w-full md:w-1/2">
             {[
               {
                 name: "What's included:",
