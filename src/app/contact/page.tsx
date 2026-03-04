@@ -43,8 +43,8 @@ export default function Contact() {
 
           {/* Intro */}
           <p className="text-[#5c3d2e] text-lg leading-relaxed mb-2 text-center">
-            Fill out the form below or contact me through  
-            <Link href="https://teamrunrun.com/coach/laur-fischer-seattle-running-coach/" target="_blank" rel="noopener noreferrer" className="font-bold text-[#3d2b1f] underline hover:text-[#8b5e3c] transition-colors"> Team RunRun</Link>
+            Fill out the form below or contact me through{" "}
+            <Link href="https://teamrunrun.com/coach/laur-fischer-seattle-running-coach/" target="_blank" rel="noopener noreferrer" className="font-bold text-[#3d2b1f] underline hover:text-[#8b5e3c] transition-colors">Team RunRun</Link>
             , the coaching collective I'm part of.              
           </p>
           <p className="text-[#5c3d2e] text-lg leading-relaxed mb-2 text-center">

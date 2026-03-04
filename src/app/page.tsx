@@ -70,6 +70,34 @@ export default function Home() {
         }}
       />
 
+      {/* About teaser */}
+      <section className="bg-[#ede0d0] py-20 px-4">
+        <div className="max-w-3xl mx-auto text-center">
+          <p className="text-[#55cdfc] text-sm tracking-[0.3em] uppercase font-medium mb-3">
+            Get to Know Me
+          </p>
+          <h2 className="font-[family-name:var(--font-display)] text-4xl font-bold text-[#3d2b1f] mb-4">
+            About Laur
+          </h2>
+          <div className="w-16 h-1 mx-auto mb-10 rounded bg-gradient-to-r from-[#55cdfc] to-[#f7a8b8]" />
+          <p className="text-[#5c3d2e] text-lg leading-relaxed mb-6">
+            I&apos;m a trans trail runner and UESCA-certified ultrarunning coach based in Seattle, WA.
+            My path to running wound through a chronic illness diagnosis, hormone replacement therapy,
+            and the trails that became my home — leading me to my first ultramarathon in 2023.
+          </p>
+          <p className="text-[#5c3d2e] text-lg leading-relaxed mb-10">
+            Those experiences — the hard ones and the joyful ones — shape how I show up for every
+            athlete I coach.
+          </p>
+          <Link
+            href="/about"
+            className="inline-block bg-[#3d2b1f] text-[#f5efe6] font-semibold px-8 py-4 rounded-full hover:bg-[#55cdfc] hover:text-[#3d2b1f] transition-colors text-sm tracking-wide uppercase"
+          >
+            Read more of my story
+          </Link>
+        </div>
+      </section>
+
       {/* Philosophy */}
       <section className="bg-[#f5efe6] py-20 px-4">
         <div className="max-w-5xl mx-auto">
