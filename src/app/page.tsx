@@ -27,7 +27,7 @@ export default function Home() {
               <span className="text-[#c4a882]">Run Together.</span>
             </h1>
             <p className="text-[#a3b18a] text-lg md:text-xl max-w-2xl mb-10 leading-relaxed">
-              I&apos;m Laur Fischer — a trans trail running coach based in Seattle
+              I&apos;m Laur Fischer (he/they) — a trans trail running coach based in Seattle
               dedicated to helping you reach your goals while building a more
               inclusive running community. I can coach you anywhere!
             </p>
